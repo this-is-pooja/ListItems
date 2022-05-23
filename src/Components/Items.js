@@ -5,7 +5,10 @@ const ListBox = {
     width: "10rem",
     height: "10rem", backgroundColor: "#fff", margin: "2rem",
     boxShadow: "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px",
-    fontFamily: "Times New Roman", padding: "1rem", fontSize: "1.2rem"
+    fontFamily: "Times New Roman", 
+    padding: "1rem", 
+    fontSize: "1.2rem",
+    borderRadius:"8px"
 }
 const outerListBox = {
     display: "flex",
