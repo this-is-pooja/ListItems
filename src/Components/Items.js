@@ -3,7 +3,9 @@ import { getList } from "./api";
 
 const ListBox = {
     width: "10rem",
-    height: "10rem", backgroundColor: "#fff", margin: "2rem",
+    height: "fit-content", 
+    backgroundColor: "#fff",
+    margin: "2rem",
     boxShadow: "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px",
     fontFamily: "Times New Roman", 
     padding: "1rem", 
@@ -52,7 +54,7 @@ function Items() {
                                             {""} {item.id}
                                         </span>
                                     </div>
-                                    <div style={{ height: "7rem" }}>
+                                    <div style={{ height: "7.2rem" }}>
                                         Title:-
                                         <span style={{ color: "#D10000" }}>
                                             {""} {item.title}
