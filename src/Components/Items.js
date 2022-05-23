@@ -54,7 +54,7 @@ function Items() {
                                             {""} {item.id}
                                         </span>
                                     </div>
-                                    <div style={{ height: "7.2rem" }}>
+                                    <div style={{ height: "8rem" }}>
                                         Title:-
                                         <span style={{ color: "#D10000" }}>
                                             {""} {item.title}
